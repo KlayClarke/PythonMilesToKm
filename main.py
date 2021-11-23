@@ -2,7 +2,7 @@ from tkinter import *
 
 window = Tk()
 window.title('Mile to KM Converter')
-window.minsize(width=450, height=250)
+window.minsize(width=200, height=100)
 
 # entry window
 
@@ -26,7 +26,7 @@ conversion_display.grid(column=1, row=1)
 
 # label to specify measurement for conversion answer
 
-label_of_km = Label(text='KM')
+label_of_km = Label(text='Km')
 label_of_km.grid(column=2, row=1)
 
 
@@ -40,8 +40,7 @@ def conversion():
 
 # button to calculate conversion
 
-calculate = Button(text='calculate', command=conversion)
+calculate = Button(text='Calculate', command=conversion)
 calculate.grid(column=1, row=2)
 
 window.mainloop()
-
