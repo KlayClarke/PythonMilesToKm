@@ -45,5 +45,3 @@ calculate.grid(column=1, row=2)
 
 window.mainloop()
 
-# TODO: a calculate button that commands a function that returns the conversion
-#   by taking user input and converting it to km
