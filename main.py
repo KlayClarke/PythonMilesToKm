@@ -1,8 +1,9 @@
 from tkinter import *
 
 window = Tk()
-window.title('Mile to KM Converter')
+window.title('Miles to Km Converter')
 window.minsize(width=200, height=100)
+window.config(padx=20, pady=20)
 
 # entry window
 
